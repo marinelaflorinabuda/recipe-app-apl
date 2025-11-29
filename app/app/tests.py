@@ -28,3 +28,4 @@ class AnotherCalcTests(SimpleTestCase):
         res = calc.add(10, 16)
 
         self.assertEqual(res, 26)
+
