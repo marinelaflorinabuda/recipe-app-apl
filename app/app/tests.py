@@ -3,7 +3,9 @@ Sample tests for the calc module.
 """
 
 from django.test import SimpleTestCase
+
 from app import calc
+
 
 class CalcTests(SimpleTestCase):
     """Tests for the calc module."""
@@ -28,4 +30,3 @@ class AnotherCalcTests(SimpleTestCase):
         res = calc.add(10, 16)
 
         self.assertEqual(res, 26)
-
