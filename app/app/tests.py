@@ -16,6 +16,7 @@ class CalcTests(SimpleTestCase):
 
         self.assertEqual(res, 12)
 
+
 class AnotherCalcTests(SimpleTestCase):
     """More tests for the calc module."""
 
